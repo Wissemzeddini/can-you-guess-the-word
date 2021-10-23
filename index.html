@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta lang="eng">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Can you Guess the word?</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<div class="card">
+		<h1 class="title" title="Guess game">Can you guess the word?</h1>
+		<h1 class="title">
+			<input type="button" name="player1" id="pl1" value="0" class="btn3">
+			<button onclick="load()" class="yellow2">New Game</button>
+			<input type="button" name="player2" id="pl2" value="0" class="btn3">
+		</h1>
+		<div class="space">
+			<input type="text" class="word" id="word">
+			<input type="button" class="btn2" id="setup" value="Set" onclick="setup()">
+		</div>
+		<div class="group">
+			<input type="button" class="btn" id="a" value="a"
+			onclick="key('a')">
+			<input type="button" class="btn" id="z" value="z"
+			onclick="key('z')">
+			<input type="button" class="btn" id="e" value="e"
+			onclick="key('e')">
+			<input type="button" class="btn" id="r" value="r"
+			onclick="key('r')">
+			<input type="button" class="btn" id="t" value="t"
+			onclick="key('t')">
+			<input type="button" class="btn" id="y" value="y"
+			onclick="key('y')">
+			<input type="button" class="btn" id="u" value="u"
+			onclick="key('u')">
+			<input type="button" class="btn" id="i" value="i"
+			onclick="key('i')">
+			<input type="button" class="btn" id="o" value="o"
+			onclick="key('o')">
+			<input type="button" class="btn" id="p" value="p"
+			onclick="key('p')">
+		</div>
+		<div class="group">
+			<input type="button" class="btn" id="q" value="q"
+			onclick="key('q')">
+			<input type="button" class="btn" id="s" value="s"
+			onclick="key('s')">
+			<input type="button" class="btn" id="d" value="d"
+			onclick="key('d')">
+			<input type="button" class="btn" id="f" value="f"
+			onclick="key('f')">
+			<input type="button" class="btn" id="g" value="g"
+			onclick="key('g')">
+			<input type="button" class="btn" id="h" value="h"
+			onclick="key('h')">
+			<input type="button" class="btn" id="j" value="j"
+			onclick="key('j')">
+			<input type="button" class="btn" id="k" value="k"
+			onclick="key('k')">
+			<input type="button" class="btn" id="l" value="l"
+			onclick="key('l')">
+			<input type="button" class="btn" id="m" value="m"
+			onclick="key('m')">
+		</div>
+		<div class="group">
+			<input type="button" class="btn" id="w" value="w" 
+			onclick="key('w')">
+			<input type="button" class="btn" id="x" value="x"
+			onclick="key('x')">
+			<input type="button" class="btn" id="c" value="c"
+			onclick="key('c')">
+			<input type="button" class="btn" id="v" value="v"
+			onclick="key('v')">
+			<input type="button" class="btn" id="b" value="b"
+			onclick="key('b')">
+			<input type="button" class="btn" id="n" value="n"
+			onclick="key('n')">
+		</div>
+		<div></div>
+	</div>
+<footer>This game is created by <a href="https://wissem-zeddini.netlify.app/">wissem</a> in 2021 &copy; all rights are reserved</footer>
+</body>
+</html>
